@@ -1,6 +1,6 @@
 # ESP32 Socket Communication Projects
 
-Welcome to the ESP32 Socket Communication Projects repository. This repository contains a collection of projects and components for socket communication capabilities in embedded applications running on the ESP32 microcontroller, for use in the IDF developement environment.
+Welcome to the ESP32 Socket Communication Projects repository. This repository contains a collection of projects and components for socket communication capabilities in embedded applications running on the ESP32 microcontroller for use in the IDF development environment.
 
 ## Project Structure
 
@@ -16,11 +16,11 @@ The `ws_server` folder focuses on WebSocket (WS) server implementations for the 
 
 ### 3. web_clients
 
-The `web_clients` folder containes web client implementations for the servers mentioned above:
+The `web_clients` folder contains web client implementations for the servers mentioned above:
 
 #### - PIDs Tuning Web Client
 
-Inside this subfolder, you'll find a web client designed for tuning PID controllers. 
+Web client designed for tuning PID controllers. 
 
 #### - Remote Car Control Web Client
 
@@ -28,11 +28,11 @@ Web client for remote control applications.
 
 ### 4. web_clients
 
-The components folder contain the servers as a component that can be easily added in a project. 
+The components folder contains the servers as a component that can be easily added to a project. 
 
 ## Getting Started
 
-To get started with any of the projects in this repository, navigate to the respective folder, and follow the provided README or instructions to set up and deploy the project on your ESP32. 
+To get started with any projects in this repository, navigate to the respective folder and follow the provided README or instructions to set up and deploy the project on your ESP32. 
 
 ## Dependencies
-See the CMakeLists in each project to correctly setup the required components before compiling. 
+See the CMakeLists in each project to correctly configure the required components before compiling. 
