@@ -32,7 +32,7 @@ The `components` folder contains the servers as a component that can be easily a
 
 ## Getting Started
 
-To get started with any projects in this repository, navigate to the respective folder and follow the provided README or instructions to set up and deploy the project on your ESP32. 
+To get started with any projects in this repository, navigate to the respective folder and tweak the callbacks for when a packet is recieved.  
 
 ## Dependencies
 See the `CMakeLists.txt` in each project to correctly configure the required components before compiling. 
