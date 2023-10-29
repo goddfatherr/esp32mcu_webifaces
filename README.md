@@ -28,11 +28,11 @@ Web client for remote control applications.
 
 ### 4. web_clients
 
-The components folder contains the servers as a component that can be easily added to a project. 
+The `components` folder contains the servers as a component that can be easily added to a project. 
 
 ## Getting Started
 
 To get started with any projects in this repository, navigate to the respective folder and follow the provided README or instructions to set up and deploy the project on your ESP32. 
 
 ## Dependencies
-See the CMakeLists in each project to correctly configure the required components before compiling. 
+See the `CMakeLists.txt` in each project to correctly configure the required components before compiling. 
