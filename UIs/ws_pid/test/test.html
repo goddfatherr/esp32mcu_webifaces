@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TCP Server Communication</title>
+    <script>
+        // Function to send the number to the TCP server
+        function sendNumberToServer() {
+            // Create a new XMLHttpRequest object
+            var xhr = new XMLHttpRequest();
+            
+            // Prepare the request
+            //xhr.open("POST", "http://YOUR_SERVER_IP_ADDRESS:YOUR_SERVER_PORT", true);  // Replace with your server IP address and port number
+            //xhr.setRequestHeader("Content-Type", "text/plain");
+
+            // Generate the number to send
+            var number = parseInt(document.getElementById("counter").innerHTML) + 1;
+
+            // Send the number to the server
+            //xhr.send(number.toString());
+
+            // Display the sent number in the browser
+            document.getElementById("counter").innerHTML = number;
+        }
+    </script>
+</head>
+<body>
+    <h1>ESP32 TCP Server </h1>
+    <p>Counter: <span id="counter">0</span></p>
+    <button onclick="sendNumberToServer()">Send Number to Server</button>
+</body>
+</html>

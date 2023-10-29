@@ -1,0 +1,11 @@
+ .recent-values {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    max-height: 120px;
+    overflow-y: auto;
+}
+.container {
+    max-width: 500px;
+    margin-top: 50px;
+}
