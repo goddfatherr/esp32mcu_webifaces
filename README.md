@@ -1,4 +1,4 @@
-# ESP32 Socket Communication Projects
+# ESP32 Socket Communication Applications
 
 Welcome to the ESP32 Socket Communication Projects repository. This repository contains a collection of projects and components for socket communication capabilities in embedded applications running on the ESP32 microcontroller for use in the IDF development environment.
 
